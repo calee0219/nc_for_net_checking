@@ -1,3 +1,3 @@
-#!/bin/sh
+#!/bin/bash
 
-kill (ps -a | grep nc | awk '{print $1}')
+kill $(ps -a | grep nc | awk '{print $1}')
