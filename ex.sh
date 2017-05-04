@@ -1,7 +1,7 @@
 #!/bin/sh
 
 info=info
-server_ip='140.113.69.46'
+server_ip='192.168.1.163'
 server_port=1234
 wait_time=2
 
