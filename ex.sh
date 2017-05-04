@@ -1,10 +1,6 @@
 #!/bin/bash
 
 source config
-#info=info
-#server_ip='192.168.1.163'
-#server_port=1234
-#wait_time=2
 
 DATE=$(date +%H:%M:%S)
 IP=$(ifconfig | grep -v 127 | grep 'inet ' | awk '{print $2}' | sed 's/addr://g')

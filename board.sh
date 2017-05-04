@@ -1,11 +1,12 @@
-#!/bin/sh
+#!/bin/bash
 
-time_file=get_time.txt
-reflash_time=2
+source config
 
-while [ 1 -eq 1 ]
-do
-    cat ${time_file}
-    sleep ${reflash_time}
-    clear
-done
+nc -lk -p ${server_port}
+
+#while [ 1 -eq 1 ]
+#do
+    #cat ${time_file}
+    #sleep ${reflash_time}
+    #clear
+#done
