@@ -22,7 +22,7 @@ chmod +x *.sh
 ```
 3. change the [config](https://github.com/calee0219/nc_for_net_checking/blob/master/config) file to where you put your config
 - see [what to change](https://github.com/calee0219/nc_for_net_checking#config)
-- if you need to check time for every period, go to [start](https://github.com/calee0219/nc_for_net_checking/blob/master/start.sh), adding '&' behind `ncat` command to put it as background, and remove the comment below `while`. So your code must look like below:
+- if you need to proofreading time for every period, go to [start](https://github.com/calee0219/nc_for_net_checking/blob/master/start.sh), adding '&' behind `ncat` command to put it as background, and remove the comment below `while`. So your code must look like below:
 
   ```script
   #!/bin/bash
