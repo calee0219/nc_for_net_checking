@@ -1,4 +1,6 @@
-# pi 小工具
+nc_for_net_checking
+=====
+using nc command to check net request and respond
 監聽 port 並在收到觸發後，等兩秒，回傳被觸發時間給 server
 
 ## Client
