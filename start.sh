@@ -2,6 +2,8 @@
 
 source config
 
+./clean
+
 ncat -k -vc ./ex.sh -l ${client_port}
 
 #while [ 1 -eq 1 ]
