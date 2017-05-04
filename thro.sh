@@ -6,7 +6,8 @@ source config
 
 while [ 1 -eq 1 ]
 do
-    > ${time_file}
+    #> ${time_file}
+    echo "" | nc -v localhost ${server_port}
     for i in ${client_ip_list}; do
         echo "sent msg to ${i}"
         nc -v ${i} ${client_port} &

@@ -10,6 +10,6 @@ check_time=60
 # Other
 wait_time=2
 info=info
-time_file=get_time.txt
+#time_file='get_time.txt'
 due_time=5
 reflash_time=0.1
