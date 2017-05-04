@@ -1,9 +1,9 @@
 # Server
-server_ip='192.168.1.163 139.162.114.211'
+server_ip='192.168.1.163'
 server_port=1234
 
 # Client
-client_ip_list="192.168.1.102"
+client_ip_list="192.168.1.102 139.162.114.211"
 client_port=8888
 check_time=60
 
