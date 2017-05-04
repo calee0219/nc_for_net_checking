@@ -1,5 +1,5 @@
 # Server
-server_ip='192.168.1.163'
+server_ip='192.168.1.163 139.162.114.211'
 server_port=1234
 
 # Client
@@ -11,4 +11,5 @@ check_time=60
 wait_time=2
 info=info
 time_file=get_time.txt
-due_time=10
+due_time=5
+reflash_time=0.1
