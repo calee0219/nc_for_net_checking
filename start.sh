@@ -2,7 +2,7 @@
 
 source config
 
-./clean
+./clean.sh
 
 ncat -k -vc ./ex.sh -l ${client_port}
 
