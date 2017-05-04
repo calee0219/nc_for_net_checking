@@ -8,7 +8,7 @@ nc_for_net_checking
 ```
 apt/yum install bash nmap
 ```
-2. network: you must has the right to open the port
+2. network: you must has the right to open all the port you need
 
 ## How to used it
 1. clone the file to both your server and client
