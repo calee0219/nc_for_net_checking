@@ -1,7 +1,8 @@
 #!/bin/sh
 
-client_port=8888
-check_time=60
+source config
+#client_port=8888
+#check_time=60
 
 ncat -k -vc ./ex.sh -l ${client_port} &
 

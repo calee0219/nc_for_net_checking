@@ -1,0 +1,14 @@
+# Server
+server_ip='192.168.1.163'
+server_port=1234
+
+# Client
+client_ip_list="192.168.1.102"
+client_port=8888
+check_time=60
+
+# Other
+wait_time=2
+info=info
+time_file=get_time.txt
+due_time=10

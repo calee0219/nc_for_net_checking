@@ -1,10 +1,11 @@
 #!/bin/sh
 
-client_ip_list="192.168.1.102"
-time_file=get_time.txt
-server_port=1234
-client_port=8888
-due_time=10
+source config
+#client_ip_list="192.168.1.102"
+#time_file=get_time.txt
+#server_port=1234
+#client_port=8888
+#due_time=10
 
 #nc -lk -p ${server_port} >> ${time_file} &
 
